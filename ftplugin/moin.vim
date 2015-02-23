@@ -2,7 +2,7 @@ setlocal expandtab
 setlocal matchpairs+=<:>
 
 " folding based on headings
-setlocal foldlevel=0
+setlocal foldlevel=2
 setlocal foldmethod=expr
 setlocal foldexpr=HeadingLevel(v:lnum)
 if (!exists("*HeadingLevel"))
